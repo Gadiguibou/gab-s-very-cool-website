@@ -1,0 +1,54 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fcfcfc;
+    color: #0d0d0d;
+}
+
+header {
+    margin: -1.5rem -0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #33ffff;
+    color: #000000;
+}
+
+header img {
+    height: 5rem;
+    width: auto;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+nav {
+    margin: 4rem;
+    padding: 0.2rem 2rem;
+    background-color: #e5e5e5;
+    color: #000000;
+}
+
+main {
+    margin: 4rem;
+    text-align: justify;
+}
+
+footer {
+    margin: 1rem -0.5rem -1.5rem;
+    padding: 1rem 2rem;
+    background-color: #0d0d0d;
+    color: #fcfcfc;
+}
+
+h2,h3,h4,h5,h6 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+}
+
+a{
+    color: #146BCC;
+    font-weight: 700;
+}
