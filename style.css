@@ -26,6 +26,10 @@ nav {
     color: #000000;
 }
 
+nav p {
+    line-height: 2;
+}
+
 main {
     margin: 4rem;
     text-align: justify;
