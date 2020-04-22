@@ -61,7 +61,12 @@ h1 {
     font-weight: 800;
 }
 
-a{
+a {
     color: #146BCC;
     font-weight: 700;
 }
+
+a:active {
+    color: #0C417D;
+}
+
