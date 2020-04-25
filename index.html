@@ -178,13 +178,18 @@
                         <li>
                             <label for="size-select">Your preferred size:<abbr title="required">*</abbr></label>
                             <select name="size" id="size-select" required>
-                              <option value="">--Please select an option--</option>
-                              <option value="0">Cocktail Sausage</option>
-                              <option value="1">Standard Wiener</option>
-                              <option value="2">Big Pickle</option>
-                              <option value="3">Donkey's Banana</option>
-                              <option value="4">Legendary Eggplant</option>
-                            </select>
+                              <optgroup label="S">
+                                <option value="0">Cocktail Sausage</option>
+                              </optgroup>
+                              <optgroup label="M">
+                                <option value="1" selected>Standard Wiener</option>
+                                <option value="2">Big Pickle</option>
+                              </optgroup>
+                              <optgroup label="L">
+                                <option value="3">Donkey's Banana</option>
+                                <option value="4">Legendary Eggplant</option>
+                              </optgroup>
+                              </select>
                         </li>
                         <li>
                             <fieldset>
