@@ -71,8 +71,12 @@ main {
     text-decoration: underline dotted;
 }
 
+.start figure {
+    width: min-content;
+}
+
 .start figure img {
-    height: 400px;
+    height: 300px;
     width: auto;
 }
 
