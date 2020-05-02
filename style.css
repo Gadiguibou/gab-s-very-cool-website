@@ -89,6 +89,10 @@ h1, h2, h3 {
     font-family: 'Roboto Slab', sans-serif;
 }
 
+h2 {
+    margin: 1rem 0;
+}
+
 a {
     color: #146BCC;
     font-weight: 700;
