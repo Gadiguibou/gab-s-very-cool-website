@@ -41,24 +41,33 @@ header {
     margin: 0 1rem;
 }
 
-nav {
-    margin: 4rem;
-    padding: 0.2rem 2rem;
-    background-color: #e5e5e5;
-    color: #000000;
+.start {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
-nav ul {
+.start nav,
+.start figure {
+    margin: 1rem 3rem;
+    background-color: #eee;
+    border: 1px solid #333;
+    padding: 1rem;
+}
+
+.start nav ul {
     line-height: 2;
 }
 
-nav a {
+.start nav a {
     color: #000000;
     text-decoration: underline dotted;
 }
 
-nav a:active {
-    color: #555555;
+.start figure img {
+    height: 400px;
+    width: auto;
 }
 
 main {
