@@ -18,6 +18,30 @@ header {
     padding: 1rem;
 }
 
+.main-title {
+    font-size: 4rem;
+    grid-area: T;
+    margin: 0 1rem;
+}
+
+.logo {
+    display: block;
+    grid-area: I;
+    height: 100%;
+    width: auto;
+}
+
+.logo img {
+    height: 100%;
+    width: auto;
+}
+
+.subtitle {
+    font-size: 2rem;
+    grid-area: S;
+    margin: 0 1rem;
+}
+
 nav {
     margin: 4rem;
     padding: 0.2rem 2rem;
