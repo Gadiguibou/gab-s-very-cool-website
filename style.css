@@ -76,6 +76,11 @@ main {
     background-color: #fff;
 }
 
+form {
+    max-width: max-content;
+    margin: auto;
+}
+
 footer {
     margin: 1rem -0.5rem -1.5rem;
     padding: 1rem 2rem;
