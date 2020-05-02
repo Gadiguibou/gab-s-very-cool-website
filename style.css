@@ -41,6 +41,12 @@ header {
     margin: 0 1rem;
 }
 
+main {
+    min-width: min-content;
+    padding: 3rem;
+    background-color: #fff;
+}
+
 .start {
     display: flex;
     flex-flow: row wrap;
@@ -68,12 +74,6 @@ header {
 .start figure img {
     height: 400px;
     width: auto;
-}
-
-main {
-    min-width: min-content;
-    padding: 3rem;
-    background-color: #fff;
 }
 
 form {
