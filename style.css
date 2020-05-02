@@ -7,18 +7,15 @@ body {
 }
 
 header {
-    margin: -1.5rem -0.5rem;
-    padding: 0.5rem 1rem;
-    background-color: #33ffff;
-    color: #000000;
-}
-
-header img {
-    height: 5rem;
-    width: auto;
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
+    display: grid;
+    grid-template-columns: 7rem 1fr;
+    grid-template-rows: 4rem 3rem;
+    grid-template-areas: 'I T' 'I S';
+    background-color: #3ff;
+    color: #000;
+    height: 7rem;
+    align-items: center;
+    padding: 1rem;
 }
 
 nav {
