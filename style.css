@@ -71,8 +71,9 @@ header {
 }
 
 main {
-    margin: 4rem;
-    text-align: justify;
+    min-width: min-content;
+    padding: 3rem;
+    background-color: #fff;
 }
 
 footer {
