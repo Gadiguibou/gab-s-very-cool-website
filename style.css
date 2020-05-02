@@ -82,10 +82,7 @@ form {
 }
 
 footer {
-    margin: 1rem -0.5rem -1.5rem;
-    padding: 1rem 2rem;
-    background-color: #0d0d0d;
-    color: #fcfcfc;
+    padding: 3rem;
 }
 
 h1, h2, h3 {
