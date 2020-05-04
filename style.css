@@ -1,146 +1,152 @@
 body {
-    margin: 0;
-    color: #333;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #eee;
+  margin: 0;
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  background-color: #eee;
 }
 
 header {
-    display: grid;
-    grid-template-columns: 7rem 1fr;
-    grid-template-rows: 4rem 3rem;
-    grid-template-areas: 'I T' 'I S';
-    background-color: #3ff;
-    color: #000;
-    height: 7rem;
-    align-items: center;
-    padding: 1rem;
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  grid-template-rows: 4rem 3rem;
+  grid-template-areas: "I T" "I S";
+  background-color: #3ff;
+  color: #000;
+  height: 7rem;
+  align-items: center;
+  padding: 1rem;
 }
 
 .main-title {
-    font-size: 4rem;
-    grid-area: T;
-    margin: 0 1rem;
+  font-size: 4rem;
+  grid-area: T;
+  margin: 0 1rem;
 }
 
 .logo {
-    display: block;
-    grid-area: I;
-    height: 100%;
-    width: auto;
+  display: block;
+  grid-area: I;
+  height: 100%;
+  width: auto;
 }
 
 .logo img {
-    height: 100%;
-    width: auto;
+  height: 100%;
+  width: auto;
 }
 
 .subtitle {
-    font-size: 2rem;
-    grid-area: S;
-    margin: 0 1rem;
+  font-size: 2rem;
+  grid-area: S;
+  margin: 0 1rem;
 }
 
 main {
-    min-width: min-content;
-    padding: 3rem;
-    background-color: #fff;
+  min-width: min-content;
+  padding: 3rem;
+  background-color: #fff;
 }
 
 .start {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .start nav,
 .start figure {
-    margin: 1rem 3rem;
-    background-color: #eee;
-    border: 1px solid #333;
-    padding: 1rem;
+  margin: 1rem 3rem;
+  background-color: #eee;
+  border: 1px solid #333;
+  padding: 1rem;
 }
 
 .start nav {
-    padding: 0 1rem;
+  padding: 0 1rem;
 }
 
 .start nav ul {
-    line-height: 2;
+  line-height: 2;
 }
 
 .start nav a {
-    color: #000000;
-    text-decoration: underline dotted;
+  color: #000000;
+  text-decoration: underline dotted;
 }
 
 .start figure {
-    width: min-content;
+  width: min-content;
 }
 
 .start figure img {
-    height: 300px;
-    width: auto;
+  height: 300px;
+  width: auto;
 }
 
 form {
-    max-width: 1000px;
-    margin: auto;
+  max-width: 1000px;
+  margin: auto;
 }
 
 form ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 form > ul > li {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
-form input, select, button{
-    font-family: inherit;
-    font-size: inherit;
+form input,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
 }
 
 form textarea {
-    width: 100%;
-    height: auto;
-    margin: 1rem 0;
-    padding: 0.5rem;
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  padding: 0.5rem;
 
-    max-width: 100%;
-    max-height: 20rem;
-    min-width: 50%;
-    min-height: 5rem;
+  max-width: 100%;
+  max-height: 20rem;
+  min-width: 50%;
+  min-height: 5rem;
 
-    font-family: inherit;
-    font-size: inherit;
+  font-family: inherit;
+  font-size: inherit;
 
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	box-sizing: border-box;         /* Opera/IE 8+ */
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
 }
 
 footer {
-    padding: 3rem;
+  padding: 3rem;
 }
 
-h1, h2, h3 {
-    font-family: 'Roboto Slab', sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Roboto Slab", sans-serif;
 }
 
 h2 {
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 a {
-    color: #146BCC;
-    font-weight: 700;
+  color: #146bcc;
+  font-weight: 700;
 }
 
 a:active {
-    color: #0C417D;
+  color: #0c417d;
 }
-
